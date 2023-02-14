@@ -10,10 +10,11 @@ const App: React.FC = () => {
 
   return (
     <>
-      <Radio defaultChecked={false} disabled={disabled}>
-        Disabled
+      <Radio defaultChecked={false} Upload Now ={Upload Now}>
+        Upload Now
       </Radio>
-      <Radio defaultChecked disabled={disabled}>
+      <Radio defaultChecked disabled={
+       }>
         Disabled
       </Radio>
       <br />
